@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>JeoperdyLogo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -114,6 +117,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\JeoperdyLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="JeoperdyLogo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
